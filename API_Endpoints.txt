@@ -1,0 +1,23 @@
+END POINTS :
+
+1.	http://127.0.0.1:8000/admin				:	Get JWT authentication token
+Login with super user first
+Username : deepdabare
+Password : libraryapp
+
+Librarian end points:
+1.	http://127.0.0.1:8000/books/				:	Show all books
+2.	http://127.0.0.1:8000/books/				:	Add book			:	Accept : JSON
+3.	http://127.0.0.1:8000/books/id			:	Update book		:	Accept : JSON
+4.	http://127.0.0.1:8000/books/id			:	Delete book
+5.	http://127.0.0.1:8000/member/add			:	Add Member		:	Accept JSON
+6.	http://127.0.0.1:8000/member/update		:	Update Member		:	Accept JSON
+7.	http://127.0.0.1:8000/member/id			:	Get Member
+8.	http://127.0.0.1:8000/member/remove/id	:	Remove Member
+9.	http://127.0.0.1:8000/member/showMembers:	Show all members
+
+Member end points:
+1.	http://127.0.0.1:8000/books/showBooks		:	Show all books
+2.	http://127.0.0.1:8000/books/borrow/id		:	Borrow book
+3.	http://127.0.0.1:8000/books/return/id		:	Return book
+4.	http://127.0.0.1:8000/member/remove/id	:	Remove Member
